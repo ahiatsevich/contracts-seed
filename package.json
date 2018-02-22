@@ -1,0 +1,34 @@
+{
+  "name": "contracts-seed",
+  "version": "0.0.1",
+  "description": "A starter project for Ethereum Smart Contracts",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahiatsevich/contracts-seed.git"
+  },
+  "keywords": [
+    "Smart",
+    "Contracts",
+    "Ethereum",
+    "Solidity"
+  ],
+  "author": "Aliaksei Hiatsevich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahiatsevich/contracts-seed/issues"
+  },
+  "homepage": "https://github.com/ahiatsevich/contracts-seed#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "6.0.3",
+    "truffle": "4.0.6",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "zeppelin-solidity": "1.7.0"
+  }
+}
