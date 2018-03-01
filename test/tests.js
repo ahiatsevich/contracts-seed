@@ -14,12 +14,6 @@ contract('HelloWorld', function (accounts) {
     })
 
     context("Initial tests", async () => {
-        it('should return true by default', async () => {
-            let contract = await HelloWorld.deployed();
-            assert.isTrue(await contract.test.call());
-
-            let tx = await contract.test();
-            console.log(tx);
-        });
+        
     });
 });
